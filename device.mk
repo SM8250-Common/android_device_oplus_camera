@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Blob dependencies
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V3-ndk.vendor
+
 # Framework
 PRODUCT_BOOT_JARS += \
     oplus-support-wrapper
