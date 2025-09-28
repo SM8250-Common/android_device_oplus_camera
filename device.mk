@@ -15,6 +15,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     init.oplus.camera.rc
 
+# Overlays
+PRODUCT_PACKAGES += \
+    CameraThemedIcon
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/oplus_google_lens_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oplus_google_lens_config.xml \
